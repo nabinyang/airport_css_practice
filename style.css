@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Titillium Web', 'Noto Sans KR', sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+.header {
+  background-color: #11172b;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 37px;
+  padding: 12px;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 640px;
+}
+
+.logo > img {
+  height: 24px;
+}
+
+.logo > span {
+  font-weight: 600;
+}
+
+.list {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.togo {
+  margin: 40px auto 0;
+  padding: 24px 32px;
+  background-color: #ebeff8;
+  border-radius: 8px;
+}
+
+.title {
+  color: #b3bdd5;
+  font-size: 16px;
+  line-height: 37px;
+}
+
+.title > img {
+  height: 12px;
+}
+
+.wheretogo {
+  font-size: 32px;
+  color: #000000;
+  margin-top: 8px;
+}
+
+.whentogo {
+  margin: 24px 0 16px;
+  padding: 8px 24px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.explanation {
+  font-size: 12px;
+  color: #b3bdd5;
+}
+
+.divider {
+  margin: 20px 0;
+  border: 0;
+  border-top: 3px dashed #b6bfd3;
+}
+
+.ticket {
+  background-color: #ffffff;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.ticketnumber {
+  padding: 8px 24px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #16bf97;
+}
+
+.ticketdivider {
+  border-top: 1px dashed #dbf1ec;
+}
+
+.ticketview {
+  padding: 24px;
+}
+
+.b3bdd5 {
+  color: #b3bdd5;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0;
+}
+
+.whentogoticket {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a345e;
+  margin: 4px 0;
+}
+
+.whentogoticket > img {
+  width: 18px;
+  margin: 0 10px;
+}
+
+.0b1f66 {
+  color: #0b1f66;
+  font-size: 16px;
+  margin: 4px 0;
+}
+
+.buttonrow {
+  text-align: right;
+}
+
+.button {
+  padding-left: 24px;
+  color: #1a345e;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.button.soldout {
+  color: #dce0e8;
+}
